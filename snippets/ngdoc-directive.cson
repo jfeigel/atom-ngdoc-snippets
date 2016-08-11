@@ -1,0 +1,25 @@
+'.source.js':
+  'ngdoc-directive':
+    'prefix': 'ngdoc-directive'
+    'body': """
+    /**
+     * @ngdoc directive
+     * @name ${1:app.module}.directive:${2:directive}
+     * @restrict ${3:EA}
+     *
+     * @description
+     * ${4:The `${1:app.module}.${2:directive}` directive description.}
+     *
+     * @element
+     * @example
+     * <pre>
+     *   ${5:element-example}
+     * </pre>
+     *
+     * @attribute
+     * @example
+     * <pre>
+     *   ${6:attribute-example}
+     * </pre>
+     */
+    """

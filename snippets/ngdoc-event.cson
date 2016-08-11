@@ -1,0 +1,14 @@
+'.source.js':
+  'ngdoc-event':
+    'prefix': 'ngdoc-event'
+    'body': """
+      /**
+       * @ngdoc event
+       * @name ${1:app.module}#${2:event}
+       * @eventOf ${1:app.module}
+       * @eventType ${3:broadcast? local?}
+       *
+       * @description
+       * ${4:Descpription for ${2:event} method within ${1:app.module}.}
+       */
+    """

@@ -1,0 +1,17 @@
+'.source.js':
+  'ngdoc-function':
+    'prefix': 'ngdoc-function'
+    'body': """
+      /**
+       * @ngdoc function
+       * @name ${1:app.module}.${2:component}#${3:function-name}
+       * @methodOf ${1:app.module}.${2:component}
+       *
+       * @description
+       * ${4:Descpription for ${3:function-name} method within ${1:app.module}.}
+       *
+       * @param {${5:type}\\} ${6:name} ${7:description}
+       *
+       * @returns {${8:type}\\} ${9:name} ${10:description}
+       */
+    """

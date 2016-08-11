@@ -1,0 +1,14 @@
+'.source.js':
+  'ngdoc-module':
+    'prefix': 'ngdoc-module'
+    'body': """
+      /**
+       * @ngdoc overview
+       * @name ${1:app.module}
+       *
+       * @requires ${2:dependency}
+       *
+       * @description
+       * ${3:The `${1:app.module}` module description.}
+       */
+     """

@@ -1,0 +1,14 @@
+'.source.js':
+  'ngdoc-service':
+    'prefix': 'ngdoc-service'
+    'body': """
+      /**
+       * @ngdoc service
+       * @name ${1:app.module}.${2:service}
+       *
+       * @requires ${3:dependencies}
+       *
+       * @description
+       * ${4:The `${2:service}` service description.}
+       */
+    """
